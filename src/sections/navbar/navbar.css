@@ -1,0 +1,36 @@
+nav{
+    width: 100vw;
+    height: 4rem;
+    display: grid;
+    place-items: center;
+    background: var(--transparent);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    transition: var(--transition);
+}
+
+.nav_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_menu{
+    align-items: center;
+    display: flex;
+    gap: 3.5rem;
+    padding: 2rem;
+}
+.dil{
+    width: 4rem;
+    height: 4rem;
+}
+
+@media screen and (max-width: 1024px){
+    .nav_menu{
+        display: none;
+    }
+    
+}

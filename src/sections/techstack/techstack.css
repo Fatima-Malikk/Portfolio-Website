@@ -1,0 +1,29 @@
+.AnimatedImagePlayer-images{
+    width: 4rem;
+    height: 7rem;
+    display: inline-block;
+}
+
+a {
+    color: var(--color-accent-fg);
+    text-decoration: none;
+    width: 4rem;
+    height: 7rem;
+    display: inline-block;
+    background-color: transparent;
+}
+
+.icons{
+    padding: 5rem;
+    border-radius: 2rem;
+    gap: 10rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+    transition: var(--transition);
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
