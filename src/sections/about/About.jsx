@@ -4,7 +4,7 @@ import {FaAward} from 'react-icons/fa'
 import {TbBooks} from 'react-icons/tb'
 import {BiHappyHeartEyes} from 'react-icons/bi'
 import './about.css'
-import CV from '../../assets/resume.pdf'
+import CV from '../../assets/Resume.pdf'
 import {HiDownload} from 'react-icons/hi'
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
