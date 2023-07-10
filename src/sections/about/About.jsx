@@ -8,7 +8,7 @@ import CV from '../../assets/Resumee.pdf'
 import {HiDownload} from 'react-icons/hi'
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../../assets/ast2.png";
+import headerImg from "../../assets/ast2_prev_ui.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
